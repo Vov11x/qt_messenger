@@ -7,6 +7,7 @@
 #include <QMessageBox>
 #include <QHostAddress>
 #include <QStringRef>
+#include <QFile>
 
 
 
@@ -46,6 +47,8 @@ private slots:
     void user_joined(const QString &username);
     void user_left(const QString &username);
     void error(QAbstractSocket::SocketError socket_error);
+    void on_btn_settings_clicked();
+    void on_btn_menu_clicked();
 };
 
 #endif // CHATWIN_H

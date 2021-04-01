@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>597</width>
+    <height>563</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,9 +17,9 @@
    <widget class="QListView" name="chatView">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>60</y>
-      <width>781</width>
+      <x>3</x>
+      <y>37</y>
+      <width>591</width>
       <height>491</height>
      </rect>
     </property>
@@ -27,9 +27,9 @@
    <widget class="QLineEdit" name="messageEdit">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>560</y>
-      <width>601</width>
+      <x>3</x>
+      <y>530</y>
+      <width>499</width>
       <height>31</height>
      </rect>
     </property>
@@ -37,9 +37,9 @@
    <widget class="QPushButton" name="sendButton">
     <property name="geometry">
      <rect>
-      <x>670</x>
-      <y>560</y>
-      <width>121</width>
+      <x>504</x>
+      <y>530</y>
+      <width>91</width>
       <height>31</height>
      </rect>
     </property>
@@ -47,52 +47,26 @@
      <string>Send</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btn_settings">
     <property name="geometry">
      <rect>
-      <x>620</x>
-      <y>560</y>
-      <width>41</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>^_^</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_2">
-    <property name="geometry">
-     <rect>
-      <x>710</x>
-      <y>10</y>
+      <x>514</x>
+      <y>3</y>
       <width>80</width>
-      <height>41</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
      <string>Settings</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="btn_menu">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>10</y>
+      <x>3</x>
+      <y>3</y>
       <width>80</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Users</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_4">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>10</y>
-      <width>80</width>
-      <height>41</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">

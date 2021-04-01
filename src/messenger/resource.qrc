@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/new/prefix">
+        <file>light_sky_theme.css</file>
+        <file>night_theme.css</file>
+        <file>standard_theme.css</file>
+        <file>logo.png</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>

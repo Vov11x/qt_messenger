@@ -17,6 +17,8 @@ SOURCES += \
     encryptpassword.cpp \
     main.cpp \
     authorizationwin.cpp \
+    menuwin.cpp \
+    settingswin.cpp \
     signupwin.cpp
 
 HEADERS += \
@@ -25,11 +27,15 @@ HEADERS += \
     client.h \
     connecttodb.h \
     encryptpassword.h \
+    menuwin.h \
+    settingswin.h \
     signupwin.h
 
 FORMS += \
     authorizationwin.ui \
     chatwin.ui \
+    menuwin.ui \
+    settingswin.ui \
     signupwin.ui
 
 TRANSLATIONS += \
@@ -40,3 +46,6 @@ TRANSLATIONS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    resource.qrc
