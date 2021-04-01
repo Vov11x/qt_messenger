@@ -13,6 +13,7 @@ Authoriation and Sign Up windows:
 
 ![img1](docs/images/img1.png)
 
+
 Themes:
 
 ![img2](docs/images/img2.png)
@@ -20,6 +21,12 @@ Themes:
 ![img3](docs/images/img3.png)
 
 ![img4](docs/images/img4.png)
+
+
+Server:
+
+![img6](docs/images/img6.png)
+
 
 MySQL database design:
 
