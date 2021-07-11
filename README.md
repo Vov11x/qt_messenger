@@ -3,7 +3,6 @@
 
 Not implemented yet:
   - menu
-  - private chat system
   - admin mode
 
 
